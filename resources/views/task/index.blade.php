@@ -3,14 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Welcome</title>
+		<link rel="stylesheet" href="{{asset('css/style.css')}}">
 	</head>
 	<body>
-		@foreach($tasks as $key=>$task)
-			<div>
-				<a href="localhost:8000/task3/{{$key}}"><h1>Task: {{$task['name']}}</h1></a>
-    		    <h5>Date: {{$task['date']}}</h5>
-    		    <h6>PIC: {{$task['pic']}}</h6>
-    		</div>
-    	@endforeach
+		<section id="container">
+			<p id="header">Database</p>
+			@foreach($tasks as $key=>$task)
+				<div id="box">
+					<a href="task3/{{$key}}"><p id="title">Task: {{$task['name']}}</p></a>
+    			    <p class="detail">Date: {{$task['date']}}</p>
+    			    <p class="detail">Pic: {{$task['pic']}}</p>
+    			</div>
+    		@endforeach
+		</section>
 	</body>
 </html>

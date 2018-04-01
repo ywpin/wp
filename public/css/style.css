@@ -1,0 +1,34 @@
+body {
+	background-color: black;
+}
+
+a {
+	text-decoration: none;	
+}
+
+#container {
+	margin: auto;
+	width: 600px;
+}
+
+#header {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}
+
+#box {
+	border: solid 2px white;
+	margin: 10px;
+	text-align: center;
+}
+
+#title {
+	font-size: 20px;
+	color: blue;
+}
+
+.detail {
+	font-size: 18px;
+	color: lightblue;
+}

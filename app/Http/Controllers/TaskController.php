@@ -33,17 +33,17 @@ class TaskController extends Controller
         [
             'name' => 'Assignment',
             'date' => '21/03/2018',
-            'pic' => 'Ken Land'
+            'pic' => asset('img/Ken-Land.png')
         ],
         [
             'name' => 'Group Project',
             'date' => '01/01/2018',
-            'pic' => 'Tsu Chauw'
+            'pic' => asset('img/Tsu-Chauw.png')
         ],
         [
             'name' => 'Assignment',
             'date' => '12/02/2018',
-            'pic' => 'Celine'
+            'pic' => asset('img/Celine.png')
         ]
     ];
     $taskOne = $databaseOne[$id];
