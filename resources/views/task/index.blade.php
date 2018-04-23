@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Welcome</title>
-		<link rel="stylesheet" href="{{asset('css/style.css')}}">
-	</head>
-	<body>
+@extends('layouts.app')
+
+@section('content')
 		<section id="container">
 			<p id="header">Database</p>
 			@foreach($tasks as $key=>$task)
@@ -16,5 +11,4 @@
     			</div>
     		@endforeach
 		</section>
-	</body>
-</html>
+@endsection

@@ -32,3 +32,24 @@ a {
 	font-size: 18px;
 	color: lightblue;
 }
+
+#eachBox {
+	margin: 10px;
+	text-align: center;
+	color: white;
+}
+
+#eachTitle {
+	font-size: 25px;
+}
+
+#date {
+	font-size: 20px;
+}
+
+#backButton {
+	text-align: center;
+	color: green;
+	font-weight: bold;
+	margin: 30px;
+}
